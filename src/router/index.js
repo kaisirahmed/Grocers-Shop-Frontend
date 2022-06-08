@@ -6,7 +6,7 @@ const routes = [
     path: "/",
     component: () => import(/*webpackChunkName: "grocers" */ "@/views/Grocers.vue"),
     meta: { 
-      title: 'Grocers | The biggest online shop',
+      title: 'Grocers | The biggest online shop | Online Grocery Shop',
       requiresAuth: false 
     },
     children: [

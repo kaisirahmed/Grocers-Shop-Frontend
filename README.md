@@ -1,3 +1,4 @@
+<p align="center"><img src="https://nodejs.org/static/images/logo.svg" width="400"></p>
 # grocers-vue
 
 ## Project setup

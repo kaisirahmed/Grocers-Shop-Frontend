@@ -21,7 +21,7 @@
                 <router-link :to="category.slug">
                     <div class="box">
                         <div class="content">
-                            <img alt="icon" class="img-fluid" :src="'data:image/'+category.image_type+';base64,'+category.image">
+                            <img :alt="category.name" class="img-fluid" :src="'data:image/'+category.image_type+';base64,'+category.image">
                             <h3><template v-if="language.lang == 'bn'">
                                 {{ category.name_bn }}
                             </template>

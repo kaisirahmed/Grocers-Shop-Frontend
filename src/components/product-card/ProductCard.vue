@@ -2,7 +2,7 @@
 	<div class="col-6 col-lg-3 col-sm-4">
         <div class="offer">
             <router-link :to="product.slug">
-                <img class="img-fluid" data-src="" :src="'data:image/'+product.image_type+';base64,'+product.image">
+                <img class="img-fluid" data-src="" :src="'data:image/'+product.image_type+';base64,'+product.image" :alt="product.name">
             </router-link>
             <div class="content">
                 <template v-if="language.lang == 'bn'">

@@ -79,8 +79,7 @@
 </template>
 
 <script>
-	import { register } from '@/helpers/auth';
-
+	
 	export default {
 		name: "Register",
 		data: () => {

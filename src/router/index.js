@@ -48,7 +48,7 @@ const routes = [
           path: ':slug',
           component: () => import(/*webpackChunkName: "products" */ "@/components/products/Products.vue"),
           meta: {
-            title: '',
+            title: ":slug",
           }
         },
         {
